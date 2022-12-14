@@ -1,0 +1,521 @@
+/*----------------------------SUBCATEGORIAS----------------------------*/
+
+.subcategoria-barra-titulo-fondo {
+    
+    /* background-color: rgb(18, 168, 93); */
+    background-color: var(--green);
+    box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+}
+
+.subcategoria-barra-titulo {
+    color: rgb(65, 65, 65);
+    display: inline;
+}
+
+.subcategoria-barra-titulo-enlace {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.subcategoria-barra-titulo-enlace:hover {
+    color: rgb(65, 65, 65);
+}
+
+
+
+/*--------------------------------------------------------*/
+
+.subcategorias-contenedor-desplegar {
+    background-color: var(--orange);
+    color: rgb(255, 255, 255) !important;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.subcategorias-contenedor-desplegar {
+    background-color: var(--orange);
+}
+
+.subcategorias-opcion-titulo {
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+}
+
+.subcategorias-boton-desplegar {
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255) !important;
+}
+
+
+.subcategorias-contenedor-opciones {
+    
+    border-left: 1px solid var(--lineas_naranjas);
+    border-right: 1px solid var(--lineas_naranjas);
+    border-bottom: 1px solid var(--lineas_naranjas);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.subcategorias-opcion {
+    background-color: rgb(255, 207, 193);
+    border-top: 1px solid var(--lineas_naranjas);
+    color: rgb(44, 44, 44);
+    font-weight: 400;
+    text-decoration: none;
+    transition: color 0.2s, background-color 0.2s;
+}
+
+
+
+.subcategorias-opcion:hover {
+    background-color: rgb(245, 145, 99);
+    /* background-color: rgb(255, 165, 142); */
+    color: rgb(255, 255, 255);
+}
+
+.subcategorias-elegida {
+    background-color: rgb(240, 110, 50);
+    color: rgb(255, 255, 255);
+    transition: color 0.2s;
+}
+
+.subcategorias-elegida:hover {
+    background-color: rgb(240, 110, 50);
+    color: rgb(44, 44, 44);
+}
+
+.subcategorias-busqueda-contenedor{
+    background-color: rgb(250, 250, 250);
+    border-radius: 10px;
+    border: 1px solid rgb(210, 210, 210);
+}
+
+.subcategorias-busqueda-titulo{
+    display: inline;
+    color: rgb(70, 70, 70);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+.subcategorias-busqueda-titulo-producto{
+    display: inline;
+    color: rgb(240, 110, 50);
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+
+.subcategorias-busqueda-titulo-eliminar {
+    color: rgb(255, 60, 0);
+    transition: color 0.2s;
+    font-size: 1.2em;
+}
+
+.subcategorias-busqueda-titulo-eliminar:hover {
+    color: rgb(70, 70, 70);
+}
+/*--------------------------------------------------------*/
+
+@media (max-width: 768px) {
+    .subcategoria-barra-titulo {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .subcategoria-barra-titulo-enlace {
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+
+    .subcategoria-opcion-titulo {
+        font-size: 1.3em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 767.98px) {
+    .subcategoria-barra-titulo {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .subcategoria-barra-titulo-enlace {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .subcategorias-opcion-titulo {
+        font-size: 1.2em;
+    }
+}
+
+
+/*----------------------------PRODUCTOS----------------------------*/
+
+
+
+
+
+.subcategorias-contenedo-info{
+    margin-bottom: auto;
+}
+
+
+.subcategorias-Icono{
+    color:rgb(70, 70, 70);
+    display: inline;
+}
+
+.subcategorias-Titulo{
+    color:rgb(70, 70, 70);
+    
+}
+
+
+.subcategorias-Descripcion{
+    color:rgb(70, 70, 70);
+}
+
+
+@media (max-width: 768px) {
+    .subcategorias-Icono{
+        font-size: 2em;
+    }
+    
+    .subcategorias-Titulo{
+        font-size: 1.5em;
+    }
+    
+    
+    .subcategorias-Descripcion{
+        font-size: 1em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 767.98px) {
+    .subcategorias-Icono{
+        font-size: 2.5em;
+    }
+    
+    .subcategorias-Titulo{
+        font-size: 2em;
+    }
+
+    .subcategorias-Descripcion{
+        font-size: 1.3em;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.subcategorias-producto-enlace{
+    text-decoration: none;
+    display: inline;
+}
+
+.subcategorias-producto-imagen_precio {
+    background-color: var(--white);
+
+    border-bottom: 1px solid rgb(218, 218, 218);
+    transition: filter 0.2s;
+    /* transition-timing-function: ease-in; */
+}
+
+.subcategorias-producto-imagen_precio:hover {
+    filter: opacity(0.9);
+}
+
+
+.subcategorias-producto-precio-anterior {
+    color: rgb(160, 160, 160);
+    text-decoration: line-through;
+}
+
+
+
+.subcategorias-producto-precio-final {
+    color: rgb(70, 70, 70);
+}
+
+
+.subcategorias-producto-precio-rebajado {
+    color: rgb(245, 89, 89);
+}
+
+.subcategorias-contenedor-productos{
+    /* background-color: rgb(240, 240, 240); */
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+}
+
+.subcategorias-producto-card {
+    background-color: rgb(255, 229, 217);
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 1px;
+
+
+    transition: background-color 0.2s, border 0.3s;
+}
+
+.subcategorias-card-producto-texto {
+    background-color: var(--white);
+
+    height: 100px;  
+    position: relative;
+    
+}
+
+.subcategorias-producto-card:hover {
+    /* background-color: rgb(250, 180, 134); */
+    border: 1px solid rgb(250, 180, 134);
+}
+
+
+.subcategorias-producto-titulo {
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    line-height: 1.2;
+    /* display: inline; */
+    text-decoration: none;
+    font-weight: 400;
+    transition: color 0.2s;
+
+    
+    /* max-height: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  -webkit-line-clamp: 4; */
+
+   width: 100%;
+  
+  overflow:hidden;
+  max-height: 2.8rem;
+  -webkit-box-orient: vertical;
+  display: block;
+  display: -webkit-box;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+}
+
+.subcategorias-producto-titulo:hover {
+    color: rgb(238, 106, 17);
+}
+
+.subcategorias-producto-marca-container{
+    position: absolute;
+    bottom: 0.4em;
+}
+
+
+.subcategorias-producto-marca-label {
+    font-size: 18px;
+    color: rgb(70, 70, 70);
+    line-height: 1.2;
+    display: inline;
+    font-weight: 400;
+
+}
+
+.subcategorias-producto-marca {
+    font-size: 18px;
+    color: rgb(3, 117, 18);
+
+    line-height: 1.2;
+    display: inline  ;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.2s;
+}
+
+/* .subcategorias-producto-marca:hover {
+    color: rgb(238, 106, 17);
+} */
+
+
+.subcategorias-boton-paginacion{
+    background-color: var(--orange);
+    border-color: rgb(255, 115, 0);
+    font-size: 1em;
+    transition: background-color 0.3s;
+    
+}
+
+.subcategorias-boton-paginacion-pagina{
+    background-color: rgb(255, 155, 73);
+    border-color: rgb(236, 122, 29);
+}
+
+.subcategorias-boton-paginacion:hover{
+    background-color: var(--green);
+    border-color: rgb(72, 214, 143);
+}
+
+.subcategorias-boton-paginacion:active {
+    background-color: var(--green_link);
+    border-color: rgb(72, 214, 143);
+}
+
+.subcategorias-boton-paginacion:focus {
+    background-color: var(--green_link);
+    border-color: rgb(72, 214, 143);
+}
+
+
+
+@media (max-width: 575.98px) {
+    .subcategorias-producto-precio-anterior {
+        font-size: 1.1em;
+        margin-top: 1.4em;
+        line-height: 0.8em;
+    }
+    
+    
+    
+    .subcategorias-producto-precio-final {
+        font-size: 2em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+    
+    .subcategorias-producto-precio-final[descuento = '0.00'] {
+    	margin-top: 42px;
+    }
+    
+    .subcategorias-producto-precio-rebajado {
+        font-size: 1em;
+        line-height: 0.8em;
+    }
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .subcategorias-producto-precio-anterior {
+        font-size: 1em;
+        margin-top: 1.4em;
+        line-height: 0.8em;
+    }
+    
+    
+    
+    .subcategorias-producto-precio-final {
+        font-size: 1.8em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+    
+    
+    
+    .subcategorias-producto-precio-final[descuento = '0.00'] {
+    	margin-top: 42px;
+    }
+    
+    
+    .subcategorias-producto-precio-rebajado {
+        font-size: 0.9em;
+        line-height: 0.8em;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .subcategorias-producto-precio-anterior {
+        font-size: 1.3em;
+        margin-top: 1.4em;
+        line-height: 0.8em;
+    }
+    
+    
+    
+    .subcategorias-producto-precio-final {
+        font-size: 2.2em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+    
+    
+    .subcategorias-producto-precio-final[descuento = '0.00'] {
+    	margin-top: 52px;
+    }
+    
+    
+    .subcategorias-producto-precio-rebajado {
+        font-size: 1.2em;
+        line-height: 0.8em;
+    }
+}
+
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .subcategorias-producto-precio-anterior {
+        font-size: 1em;
+        margin-top: 1.4em;
+        line-height: 0.8em;
+    }
+    
+    .subcategorias-producto-precio-final {
+        font-size: 1.7em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+    
+    
+    
+    .subcategorias-producto-precio-final[descuento = '0.00'] {
+    	margin-top: 42px;
+    }
+    
+    
+    .subcategorias-producto-precio-rebajado {
+        font-size: .9em;
+        line-height: 0.8em;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    .subcategorias-producto-precio-anterior {
+        font-size: 1.1em;
+        margin-top: 1.4em;
+        line-height: 0.8em;
+    }
+    
+    .subcategorias-producto-precio-final {
+        font-size: 2em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+    
+    
+    
+    .subcategorias-producto-precio-final[descuento = '0.00'] {
+    	margin-top: 42px;
+    }
+    
+    
+    .subcategorias-producto-precio-rebajado {
+        font-size: 1em;
+        line-height: 0.8em;
+    }
+}
+
+
+
+

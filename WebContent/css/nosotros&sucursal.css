@@ -1,0 +1,123 @@
+.nos_suc-barra-titulo-fondo {
+    background-color: var(--green);
+    box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+}
+
+
+.nos_suc-barra-titulo {
+    color: rgb(65, 65, 65);
+    display: inline;
+}
+
+
+.nos_suc-barra-titulo-enlace {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.nos_suc-barra-titulo-enlace:hover {
+    color: rgb(65, 65, 65);
+}
+
+.nos_suc-titulo{
+    color: rgb(65, 65, 65);
+}
+
+.nos_suc-subtitulos{
+    color: rgb(65, 65, 65);
+}
+
+.nos_suc-parrafos{
+    color: rgb(65, 65, 65);
+    text-align: justify;
+}
+
+.nos_suc-imagen-div{
+    border: 4px solid var(--orange);
+}
+
+.nos_suc-imagen{
+    position: relative;
+    top:15px;
+    left:15px;
+}
+
+@media (max-width: 768px) {
+    .nos_suc-barra-titulo {
+        font-size: 1.15em;
+        font-weight: 400;
+    }
+
+    .nos_suc-barra-titulo-enlace {
+        font-size: 1.15em;
+        font-weight: 400;
+    }
+
+    .nos_suc-titulo{
+        font-size: 1.8em;
+    }
+
+    .nos_suc-subtitulos{
+        font-size: 1.3em;
+    }
+
+    .nos_suc-parrafos{
+        font-size: 1em;
+        margin-bottom: 0.4em;
+    }
+    
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 767.98px) {
+    .nos_suc-barra-titulo {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .nos_suc-barra-titulo-enlace {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .nos_suc-titulo{
+        font-size: 2em;
+    }
+
+    .nos_suc-subtitulos{
+        font-size: 1.5em;
+    }
+
+    .nos_suc-parrafos{
+        font-size: 1em;
+        margin-bottom: 0.4em;
+    }
+    
+
+}
+
+
+.nos_suc-main {
+    background-color: rgb(245, 245, 245);
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+}
+
+.nos_suc-contenedor {
+    /* background-color: var(--white); */
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 10px;
+}
+
+
+
+.nos_suc-sucursales-google-maps{
+    border:0; 
+    height: 100%; 
+    width: 100%;
+}

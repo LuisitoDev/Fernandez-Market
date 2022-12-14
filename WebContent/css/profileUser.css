@@ -1,0 +1,231 @@
+.profileUser-barra-titulo-fondo {
+    background-color: var(--green);
+    box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.3);
+}
+
+
+.profileUser-barra-titulo {
+    color: rgb(65, 65, 65);
+    display: inline;
+}
+
+
+.profileUser-barra-titulo-enlace {
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.profileUser-barra-titulo-enlace:hover {
+    color: rgb(65, 65, 65);
+}
+
+
+@media (max-width: 768px) {
+    .profileUser-barra-titulo {
+        font-size: 1.15em;
+        font-weight: 400;
+    }
+
+    .profileUser-barra-titulo-enlace {
+        font-size: 1.15em;
+        font-weight: 400;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 767.98px) {
+    .profileUser-barra-titulo {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+    .profileUser-barra-titulo-enlace {
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+
+}
+
+/*TODO: DONDE SE USA?*/
+.profileUser-main-registro{
+    background-color: rgb(245, 245, 245);
+}
+
+.profileUser-formulario-registro{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+
+    border-right: 1px solid rgb(218, 218, 218);
+}
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.profileUser-titulo-vista{
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    display: inline;
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.profileUser-pedido-card-pedido {
+    /* background-color: var(--white); */
+    background-color: rgb(250, 250, 250);
+    border: 1px solid rgb(218, 218, 218);
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+/* :hover */
+.profileUser-pedido-card-pedido:hover {
+    background-color: rgb(228, 252, 239);
+}
+
+.profileUser-pedido-card-pedido-titulo {
+    color: var(--green);
+    text-decoration: none;
+    display: inline;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+.profileUser-pedido-card-pedido-descipcion-titulo {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    display: inline;
+}
+
+.profileUser-pedido-card-pedido-descipcion {
+    color: rgb(70, 70, 70);
+    text-decoration: none;
+    display: inline;
+}
+
+
+
+.profileUser-pedido-card-pedido-precio-articulos-texto {
+    color: rgb(70, 70, 70);
+    display: inline;
+}
+
+.profileUser-pedido-card-pedido-precio-articulos-cantidad {
+    color: rgb(238, 106, 17);
+    display: inline;
+}
+
+
+@media (max-width: 768px) {
+    .profileUser-titulo-vista{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+
+
+    .profileUser-pedido-card-pedido-titulo {
+        font-size: 1em;
+        font-weight: 700;
+    }
+
+    .profileUser-pedido-card-pedido-descipcion-titulo {
+        font-size: 0.8em;
+        font-weight: 700;
+    }
+
+    .profileUser-pedido-card-pedido-descipcion {
+        font-size: 0.8em;
+        font-weight: 500;
+    }
+
+    .profileUser-pedido-card-pedido-marca {
+        font-size: 0.75em;
+        font-weight: 600;
+    }
+
+    
+    .profileUser-pedido-card-pedido-stock-texto {
+        font-size: 0.7em;
+        font-weight: 400;
+    }
+
+    .profileUser-pedido-card-pedido-stock-cantidad {
+        font-size: 0.7em;
+        font-weight: 600;
+    }
+
+    
+    .profileUser-pedido-card-pedido-precio-articulos-texto {
+        font-size: 0.9em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+
+    .profileUser-pedido-card-pedido-precio-articulos-cantidad {
+        font-size: 1em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 767.98px) {
+    .profileUser-titulo-vista{
+        font-size: 2em;
+        font-weight: 600;
+    }
+
+    .profileUser-pedido-card-pedido-titulo {
+        font-size: 1.1em;
+        font-weight: 600;
+    }
+
+    .profileUser-pedido-card-pedido-descipcion-titulo {
+        font-size: 0.9em;
+        font-weight: 700;
+    }
+
+    .profileUser-pedido-card-pedido-descipcion {
+        font-size: 0.9em;
+        font-weight: 500;
+    }
+
+    .profileUser-pedido-card-pedido-marca {
+        font-size: 1em;
+        
+        font-weight: 600;
+    }
+
+    
+    .profileUser-pedido-card-pedido-stock-texto {
+        font-size: 0.85em;
+        
+        font-weight: 400;
+    }
+
+    .profileUser-pedido-card-pedido-stock-cantidad {
+        font-size: 0.85em;
+        
+        font-weight: 600;
+    }
+
+    .profileUser-pedido-card-pedido-precio-articulos-texto {
+        font-size: 1.1em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+
+    .profileUser-pedido-card-pedido-precio-articulos-cantidad {
+        font-size: 1.2em;
+        line-height: 1em;
+        font-weight: 500;
+    }
+}
